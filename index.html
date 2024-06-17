@@ -9,14 +9,21 @@
     <title>Tic Tac Toe</title>
 </head>
 <body>
-    <div class="center">
-        <div class="grid">
-            <table id="ticTacToe-grid">
-            </table>
-        </div>
-    </div>
-    <div id="message"></div>
-    <div id="rounds"></div>
+<div class="board" id="board" data-board data-is-cross-to-play>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+</div>
+<div id="message">
+    <div id="message-data">Coucou</div>
+    <button id="restart-button">Play again</button>
+</div>
 </body>
 </html>
-<script type="module" src="script.js"></script>
+<script src="script.js" defer></script>
